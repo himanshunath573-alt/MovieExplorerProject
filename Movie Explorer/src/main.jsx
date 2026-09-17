@@ -1,11 +1,11 @@
-import { useState } from "react"
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
 
-useState
 
-function main() {
-  return (
-   <movieExplrer/>
-  )
-}
 
-export default main
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+  <App />
+  </React.StrictMode>,
+)
